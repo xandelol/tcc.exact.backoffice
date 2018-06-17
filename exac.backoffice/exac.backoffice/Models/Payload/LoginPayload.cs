@@ -1,4 +1,4 @@
-﻿namespace Liga.Backoffice.Lanstringxess.Models.Payload
+﻿namespace exac.backoffice.Models.Payload
 {
     public class LoginPayload
     {

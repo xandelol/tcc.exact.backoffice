@@ -1,4 +1,4 @@
-﻿namespace Liga.Backoffice.Lanxess.Models.Proxy
+﻿namespace exac.backoffice.Models.Proxy
 {
     public class BaseProxy
     {

@@ -1,0 +1,114 @@
+@using System.Security.Principal
+@using exac.backoffice.Models
+@model QuestionViewModel
+@{
+    ViewData["Title"] = (Model.Id == Guid.Empty ? "Criar" : "Editar") + " pergunta";
+    ViewData["Description"] = (Model.Id == Guid.Empty ? "Criação" : "Editação") + " de perguntas usadas no jogo";
+
+    Layout = "_Layout";
+}
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+
+        $("#menu-question").addClass("active");
+
+        $('.is-correct').change(function(element) {
+            $('.is-correct').prop('checked', false);
+            $(this).prop('checked', true);
+        });
+        
+        $("#btnSubmit").on('click',
+            function () {
+                $("#IsActive").val($('#isActive').is(":checked"));
+            });
+
+        // Edit Modal
+        $('a[data-action="edit"]').on('click',
+            function(ev) {
+                ev.preventDefault();
+                var img = $(this).data('url');
+                $("#img_modal").attr("src", img);
+
+                $("#gallery-image-modal").modal('show');
+            });
+
+    });
+
+    function readFile(input) {
+        if (input.files && input.files[0]) {
+
+            var fileName = input.value;
+            var idxDot = fileName.lastIndexOf(".") + 1;
+            var extFile = fileName.substr(idxDot, fileName.length).toLowerCase();
+            if (extFile === "jpg" || extFile === "jpeg" || extFile === "png") {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var result = e.target.result.replace("data:image/jpeg;base64,", "").replace("data:image/png;base64,", "");
+                    $('#ImageBase64').val(result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                input.value = "";
+                window.alert("Por favor, selecione apenas arquivos que sejam imagem!");
+            }
+
+
+        }
+    }
+</script>
+
+<!-- Basic Setup -->
+<div class="panel panel-default">
+    <div class="panel-body">
+        <form role="form" id="form1" method="post" action="/question/create" class="validate">
+
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                @Html.ValidationSummary(false, "", new {@class = "alert alert-danger"})
+            }
+
+            @Html.HiddenFor(f => f.Id)
+            @Html.HiddenFor(f => f.IsActive)
+
+
+            <div class="form-group">
+                <label class="control-label">Pergunta</label>
+                @Html.TextBoxFor(f => f.Statement, new
+                {
+                    @class = "form-control"
+                })
+                @Html.ValidationMessageFor(f => f.Statement)
+            </div>
+        
+            <div class="form-group">
+                <label class="control-label">Ativo</label>
+                <div class="form-block">
+                    <input type="checkbox" name="isActive" id="isActive" checked="@Model.IsActive"
+                           class="iswitch iswitch-secondary">
+                </div>
+
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" id="btnSubmit" class="btn btn-secondary">Salvar</button>
+                <a class="btn btn-white" href="~/question/index">Cancelar</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="gallery-image-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-gallery-image">
+                <img id="img_modal" src="~/images/album-image-full.jpg" class="img-responsive"/>
+            </div>
+
+            <div class="modal-footer modal-gallery-top-controls">
+                <button type="button" class="btn btn-xs btn-white" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

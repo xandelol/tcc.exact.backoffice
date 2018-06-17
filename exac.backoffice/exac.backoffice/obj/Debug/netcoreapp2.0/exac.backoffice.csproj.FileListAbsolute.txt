@@ -1,0 +1,10 @@
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\bin\Debug\netcoreapp2.0\exac.backoffice.deps.json
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\bin\Debug\netcoreapp2.0\exac.backoffice.runtimeconfig.json
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\bin\Debug\netcoreapp2.0\exac.backoffice.runtimeconfig.dev.json
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\bin\Debug\netcoreapp2.0\exac.backoffice.dll
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\bin\Debug\netcoreapp2.0\exac.backoffice.pdb
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\obj\Debug\netcoreapp2.0\exac.backoffice.csproj.CoreCompileInputs.cache
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\obj\Debug\netcoreapp2.0\exac.backoffice.AssemblyInfoInputs.cache
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\obj\Debug\netcoreapp2.0\exac.backoffice.AssemblyInfo.cs
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\obj\Debug\netcoreapp2.0\exac.backoffice.dll
+C:\git_liga\tcc.exact.backoffice\exac.backoffice\exac.backoffice\obj\Debug\netcoreapp2.0\exac.backoffice.pdb

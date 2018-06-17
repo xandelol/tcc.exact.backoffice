@@ -1,9 +1,7 @@
 ﻿using System;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace Liga.Backoffice.Lanxess.Models
+namespace exac.backoffice.Models
 {
     public class SettingViewModel
     {

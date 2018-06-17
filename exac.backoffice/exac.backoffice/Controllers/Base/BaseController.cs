@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Liga.Backoffice.Lanxess.Models;
-using Liga.Backoffice.Lanxess.Models.Payload;
+using exac.backoffice.Models;
+using exac.backoffice.Models.Payload;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json;
 
-namespace Liga.Backoffice.Lanxess.Controllers.Base
+namespace exac.backoffice.Controllers.Base
 {
     public class BaseController : Controller
     {

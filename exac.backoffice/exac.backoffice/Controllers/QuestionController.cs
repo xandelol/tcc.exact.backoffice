@@ -1,23 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Liga.Backoffice.Lanxess.Api;
-using Liga.Backoffice.Lanxess.Controllers.Base;
-using Liga.Backoffice.Lanxess.Models;
+using exac.backoffice.Api;
+using exac.backoffice.Controllers.Base;
+using exac.backoffice.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using RestEase;
 
-namespace Liga.Backoffice.Lanxess.Controllers
+namespace exac.backoffice.Controllers
 {
     [Authorize]
     public class QuestionController : BaseController
     {
-        private readonly ILanxessApi _api;
+        private readonly IExactApi _api;
 
-        public QuestionController(ILanxessApi api)
+        public QuestionController(IExactApi api)
         {
             _api = api;
         }
@@ -28,7 +25,7 @@ namespace Liga.Backoffice.Lanxess.Controllers
             return View();
         }
         [HttpGet]
-        public async Task<IActionResult> Create(int? id)
+        public async Task<IActionResult> Create(Guid? id)
         {
             var user = GetUserInfo();
 
@@ -56,7 +53,8 @@ namespace Liga.Backoffice.Lanxess.Controllers
 
             if (ModelState.IsValid)
             {
-                using (var proxy = model.Id == 0 ? await _api.CreateQuestion(user.Token, model) : await _api.UpdateQuestion(user.Token, model))
+                using (var proxy = model.Id == Guid.Empty ? await _api.CreateQuestion(user.Token, model) 
+                    : await _api.UpdateQuestion(user.Token, model))
                 {
                     switch (proxy.ResponseMessage.StatusCode)
                     {

@@ -1,0 +1,62 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+body {	
+}
+
+a {
+}
+
+.btn-register{
+    float: right;
+    margin-right: 15px;
+}
+
+.m-t-15{
+    margin-top: 15px !important;
+}
+.m-t-15-n{
+    margin-top: -15px !important;
+}
+
+
+.user-info-navbar .user-info-menu>li {
+    border: 0;
+}
+
+.user-info-navbar .user-info-menu>li>a {
+    border: 0;
+}
+
+.user-info-navbar .user-info-menu>li .dropdown-menu.user-profile-menu, .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu.user-profile-menu {
+    right: 0;
+}
+
+.xe-widget.xe-counter-block, .xe-widget.xe-counter-block .xe-upper, .xe-widget.xe-progress-counter .xe-upper, .xe-widget.xe-counter-block .xe-upper .xe-icon i, .xe-widget.xe-progress-counter .xe-upper .xe-icon i{
+    background: #68b828;
+}
+
+.panel .panel-body {
+    padding-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #2C2E2F;
+}
+
+.in-range{
+    background-color: rgba(223,54,66,.1) !important;
+}
+
+.btn-filter-apply{
+    float: right;
+    margin-top: 20px;
+}
+
+.form-control.input-validation-error, .field-validation-error{
+    border-color: #cc3f44;
+    color: #cc3f44;
+}

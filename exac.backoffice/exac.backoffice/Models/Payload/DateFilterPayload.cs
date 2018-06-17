@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Liga.Backoffice.Lanxess.Models.Payload
+namespace exac.backoffice.Models.Payload
 {
     public class DateFilterPayload
     {

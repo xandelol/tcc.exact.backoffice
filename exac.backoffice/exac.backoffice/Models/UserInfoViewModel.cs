@@ -1,4 +1,4 @@
-﻿namespace Liga.Backoffice.Lanxess.Models
+﻿namespace exac.backoffice.Models
 {
     public class UserInfoViewModel
     {

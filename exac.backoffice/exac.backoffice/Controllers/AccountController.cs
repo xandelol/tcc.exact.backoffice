@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Liga.Backoffice.Lanstringxess.Models.Payload;
-using Liga.Backoffice.Lanxess.Api;
-using Liga.Backoffice.Lanxess.Controllers.Base;
-using Liga.Backoffice.Lanxess.Models;
-using Liga.Backoffice.Lanxess.Models.Payload;
+using exac.backoffice.Api;
+using exac.backoffice.Controllers.Base;
+using exac.backoffice.Models;
+using exac.backoffice.Models.Payload;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace Liga.Backoffice.Lanxess.Controllers
+namespace exac.backoffice.Controllers
 {
     [AllowAnonymous]
     public class AccountController : BaseController
     {
-        private readonly ILanxessApi _api;
+        private readonly IExactApi _api;
 
-        public AccountController(ILanxessApi api)
+        public AccountController(IExactApi api)
         {
             _api = api;
         }

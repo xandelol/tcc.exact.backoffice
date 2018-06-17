@@ -1,6 +1,4 @@
-﻿using Liga.Backoffice.Lanxess.Enums;
-
-namespace Liga.Backoffice.Lanxess.Models.Proxy
+﻿namespace exac.backoffice.Models.Proxy
 {
     public class SettingProxy
     {
@@ -9,5 +7,12 @@ namespace Liga.Backoffice.Lanxess.Models.Proxy
         public string Key { get; set; }
         
         public SettingType Type { get; set; }
+    }
+    public enum SettingType
+    {
+        Int = 0,
+        String = 1,
+        Double = 2,
+        DateTime = 3
     }
 }

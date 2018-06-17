@@ -1,45 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Threading.Tasks;
-using Liga.Backoffice.Lanxess.Api;
-using Liga.Backoffice.Lanxess.Controllers.Base;
-using Microsoft.AspNetCore.Mvc;
-using Liga.Backoffice.Lanxess.Models;
+using exac.backoffice.Api;
+using exac.backoffice.Controllers.Base;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Liga.Backoffice.Lanxess.Controllers
+namespace exac.backoffice.Controllers
 {
     [Authorize]
     public class HomeController : BaseController
     {
         
-        private readonly ILanxessApi _api;
+        private readonly IExactApi _api;
 
-        public HomeController(ILanxessApi api)
+        public HomeController(IExactApi api)
         {
             _api = api;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var user = GetUserInfo();
-            
-            using (var proxy = await _api.GetDashInfo(user.Token))
-            {
-                switch (proxy.ResponseMessage.StatusCode)
-                {
-                    case HttpStatusCode.OK:
-                        return View(proxy.GetContent());
-                    case HttpStatusCode.Unauthorized:
-                        await Logout();
-                        return Redirect("~/home/index");
-                    default:
-                        return Redirect("~/home/error");
-                }
-            }
+            return View();
         }
 
         public IActionResult Error()
