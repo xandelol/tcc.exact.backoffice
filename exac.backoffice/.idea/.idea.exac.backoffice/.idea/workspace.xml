@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2109aa07-8fa7-4486-b8b1-e5ca8681f832" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Controllers/Base/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/AuthFailedViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/LoginViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Payload/DataTablePayload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Payload/DateFilterPayload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Payload/LoginPayload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Proxy/BaseProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Proxy/DataTableProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Proxy/MeProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Proxy/SettingProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/Proxy/TokenProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/SettingViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exac.backoffice/Models/UserInfoViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -228,11 +206,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -243,7 +221,7 @@
             <state relative-caret-position="383">
               <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
               <folding>
-                <marker date="1529272017408" expanded="true" signature="7:33" ph="..." />
+                <marker date="1529272017408" expanded="true" signature="7:63" ph="..." />
                 <marker date="1529272017408" expanded="true" signature="123:190" ph="@..." />
                 <marker date="1529272017408" expanded="true" signature="212:2225" ph="&lt;div.../&gt;" />
                 <marker date="1529272017408" expanded="true" signature="250:2218" ph="&lt;div.../&gt;" />
@@ -265,7 +243,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
@@ -410,13 +388,13 @@
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Startup.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" />
-        <option value="$PROJECT_DIR$/exac.backoffice/appsettings.json" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Question/Index.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/exac.backoffice/appsettings.json" />
       </list>
     </option>
   </component>
@@ -463,13 +441,6 @@
               <item name="exac.backoffice (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="exac.backoffice" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="exac.backoffice (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="exac.backoffice" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Base" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -589,12 +560,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529268499764</updated>
-      <workItem from="1529268501491" duration="4761000" />
+      <workItem from="1529268501491" duration="5076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4761000" />
+    <option name="totallyTimeSpent" value="5076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,13 +590,13 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="NuGet" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" weight="0.32897604" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -902,32 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding>
-            <marker date="1529272017408" expanded="true" signature="7:33" ph="..." />
-            <marker date="1529272017408" expanded="true" signature="123:190" ph="@..." />
-            <marker date="1529272017408" expanded="true" signature="212:2225" ph="&lt;div.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="250:2218" ph="&lt;div.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="284:1838" ph="&lt;script.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="363:1818" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="460:1802" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="653:798" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="854:1023" ph="[...]" />
-            <marker date="1529272017408" expanded="true" signature="880:1001" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="1056:1784" ph="[...]" />
-            <marker date="1529272017408" expanded="true" signature="1264:1762" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="1484:1736" ph="{...}" />
-            <marker date="1529272017408" expanded="true" signature="1847:2206" ph="&lt;div.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="1877:2190" ph="&lt;table.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="1986:2168" ph="&lt;thead.../&gt;" />
-            <marker date="1529272017408" expanded="true" signature="2010:2143" ph="&lt;tr.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1068,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1189,6 +1127,39 @@
             <marker date="1529273290352" expanded="true" signature="12807:12948" ph="{...}" />
             <marker date="1529273290352" expanded="true" signature="13054:13128" ph="&lt;div.../&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+          <folding>
+            <marker date="1529272017408" expanded="true" signature="7:63" ph="..." />
+            <marker date="1529272017408" expanded="true" signature="123:190" ph="@..." />
+            <marker date="1529272017408" expanded="true" signature="212:2225" ph="&lt;div.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="250:2218" ph="&lt;div.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="284:1838" ph="&lt;script.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="363:1818" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="460:1802" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="653:798" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="854:1023" ph="[...]" />
+            <marker date="1529272017408" expanded="true" signature="880:1001" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="1056:1784" ph="[...]" />
+            <marker date="1529272017408" expanded="true" signature="1264:1762" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="1484:1736" ph="{...}" />
+            <marker date="1529272017408" expanded="true" signature="1847:2206" ph="&lt;div.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="1877:2190" ph="&lt;table.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="1986:2168" ph="&lt;thead.../&gt;" />
+            <marker date="1529272017408" expanded="true" signature="2010:2143" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
