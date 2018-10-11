@@ -78,6 +78,13 @@
                     @class = "form-control"
                 })
                 @Html.ValidationMessageFor(f => f.Statement)
+                
+                <label class="control-label">Resposta</label>
+                @Html.TextBoxFor(f => f.Answer, new
+                {
+                    @class = "form-control"
+                })
+                @Html.ValidationMessageFor(f => f.Answer)
             </div>
         
             <div class="form-group">

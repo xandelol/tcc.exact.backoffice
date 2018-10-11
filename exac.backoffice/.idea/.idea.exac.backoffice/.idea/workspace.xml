@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2109aa07-8fa7-4486-b8b1-e5ca8681f832" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/exac.backoffice/Views/Account/SignUp.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exac.backoffice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/exac.backoffice/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/exac.backoffice/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/exac.backoffice/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/exac.backoffice/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/exac.backoffice/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/exac.backoffice.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/exac.backoffice.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/bin/Debug/netcoreapp2.0/exac.backoffice.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/exac.backoffice/obj/Debug/netcoreapp2.0/exac.backoffice.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,69 +34,77 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
-          <entry key="cshtml" value="1" />
+          <entry key="cs" value="7" />
+          <entry key="cshtml" value="9" />
+          <entry key="css" value="2" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
-          <entry key="Razor" value="1" />
+          <entry key="C#" value="7" />
+          <entry key="CSS" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="Razor" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="113" />
+          <entry key="cs" value="257" />
+          <entry key="cshtml" value="295" />
+          <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="113" />
+          <entry key="C#" value="257" />
+          <entry key="JSON" value="2" />
+          <entry key="Razor" value="295" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1952">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="369">
+              <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
               <folding>
-                <marker date="1529448635519" expanded="true" signature="0:23" ph="@..." />
-                <marker date="1529448635519" expanded="true" signature="40:8493" ph="&lt;html.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="57:1323" ph="&lt;head.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1324:8485" ph="&lt;body.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1374:7975" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1409:7967" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1436:7955" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1472:5732" ph="&lt;script.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="1555:5708" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="1783:5553" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="1816:2077" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="1856:1934" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="1973:2051" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="2114:2427" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="2154:2258" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="2297:2401" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="2536:5531" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="2677:3375" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="3413:5502" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="3615:3857" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="3915:5472" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="3970:4523" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="4132:4485" ph="{...}" />
-                <marker date="1529448635519" expanded="true" signature="5784:5835" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="5919:7195" ph="&lt;form.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6014:6286" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6061:6177" ph="&lt;a.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6305:6522" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6540:6774" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6792:7036" ph="&lt;div.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="6837:7013" ph="&lt;button.../&gt;" />
-                <marker date="1529448635519" expanded="true" signature="7038:7174" ph="@*...*@" />
-                <marker date="1529448635519" expanded="true" signature="7209:7939" ph="@*...*@" />
+                <marker date="1539285238774" expanded="true" signature="0:23" ph="@..." />
+                <marker date="1539285238774" expanded="true" signature="40:8509" ph="&lt;html.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="57:1323" ph="&lt;head.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1324:8501" ph="&lt;body.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1374:7991" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1409:7983" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1436:7971" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1472:5732" ph="&lt;script.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="1555:5708" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="1783:5553" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="1816:2077" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="1856:1934" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="1973:2051" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="2114:2427" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="2154:2258" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="2297:2401" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="2536:5531" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="2677:3375" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="3413:5502" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="3615:3857" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="3915:5472" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="3970:4523" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="4132:4485" ph="{...}" />
+                <marker date="1539285238774" expanded="true" signature="5784:5835" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="5919:7211" ph="&lt;form.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6014:6286" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6061:6177" ph="&lt;a.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6305:6522" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6540:6774" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6792:7036" ph="&lt;div.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="6837:7013" ph="&lt;button.../&gt;" />
+                <marker date="1539285238774" expanded="true" signature="7054:7190" ph="@*...*@" />
+                <marker date="1539285238774" expanded="true" signature="7225:7955" ph="@*...*@" />
               </folding>
             </state>
           </provider>
@@ -105,116 +113,115 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="417">
+              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
-                <marker date="1539265527983" expanded="false" signature="6:433" ph="..." />
-                <marker date="1539265527983" expanded="true" signature="472:2973" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="547:2961" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="643:687" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="759:806" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="951:2650" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="977:2102" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="1077:1255" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="1392:1539" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="1603:1705" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="2154:2364" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="2396:2629" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="2728:2955" ph="{...}" />
-                <marker date="1539265527983" expanded="true" signature="2902:2943" ph="{...}" />
+                <marker date="1539285040809" expanded="false" signature="6:433" ph="..." />
+                <marker date="1539285040809" expanded="true" signature="472:3071" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="547:3059" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="643:687" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="759:806" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="951:2650" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="977:2102" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="1077:1255" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="1392:1539" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="1603:1705" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="2154:2364" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="2396:2629" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="2728:2955" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="2902:2943" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="3006:3053" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs">
+        <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/SignUp.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="128">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1529448635515" expanded="false" signature="6:58" ph="..." />
-                <marker date="1529448635515" expanded="true" signature="92:635" ph="{...}" />
-                <marker date="1529448635515" expanded="true" signature="129:633" ph="{...}" />
-                <marker date="1529448635515" expanded="true" signature="144:208" ph="///     Primary key ... " />
-                <marker date="1529448635515" expanded="true" signature="255:330" ph="///     The question statement ... " />
-                <marker date="1529448635515" expanded="true" signature="532:627" ph="{...}" />
+                <marker date="1539285040809" expanded="true" signature="15:76" ph="@..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs">
+        <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
-                <marker date="1529448635507" expanded="false" signature="6:232" ph="..." />
-                <marker date="1529448635507" expanded="true" signature="271:3145" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="342:3143" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="439:483" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="536:583" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="659:1337" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="867:1327" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="939:1313" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="1430:2382" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="1516:2219" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="1704:2205" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="1784:2187" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="2450:3137" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="2626:3127" ph="{...}" />
-                <marker date="1529448635507" expanded="true" signature="2698:3113" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="7:62" ph="..." />
+                <marker date="1539276790746" expanded="true" signature="88:316" ph="@..." />
+                <marker date="1539276790746" expanded="true" signature="317:1932" ph="&lt;script.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="388:1065" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="490:597" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="669:751" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="849:1056" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="1098:1922" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="1495:1692" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="1955:3581" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="1993:3574" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="2026:3563" ph="&lt;form.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="2126:2282" ph="@..." />
+                <marker date="1539276790746" expanded="true" signature="2166:2282" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="2382:2954" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="2485:2604" ph="@{...}" />
+                <marker date="1539276790746" expanded="true" signature="2540:2603" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="2761:2877" ph="@{...}" />
+                <marker date="1539276790746" expanded="true" signature="2813:2876" ph="{...}" />
+                <marker date="1539276790746" expanded="true" signature="2976:3304" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3076:3284" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3121:3261" ph="&lt;input.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3330:3546" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3583:4085" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3637:4078" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3672:4067" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3713:3862" ph="&lt;div.../&gt;" />
+                <marker date="1539276790746" expanded="true" signature="3876:4052" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <marker date="1539265642170" expanded="false" signature="6:163" ph="..." />
-                <marker date="1539265642170" expanded="true" signature="194:1973" ph="{...}" />
-                <marker date="1539265642170" expanded="true" signature="227:1971" ph="{...}" />
-                <marker date="1539265642170" expanded="true" signature="242:479" ph="Login" />
-                <marker date="1539265642170" expanded="false" signature="497:1224" ph="Question" />
-                <marker date="1539265642170" expanded="false" signature="1251:1965" ph="Settings" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/Payload/LoginPayload.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <marker date="1529448635511" expanded="true" signature="40:305" ph="{...}" />
-                <marker date="1529448635511" expanded="true" signature="72:225" ph="{...}" />
-                <marker date="1529448635511" expanded="true" signature="259:303" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="128">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml">
+        <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+            <state relative-caret-position="832">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <marker date="1529448635522" expanded="true" signature="89:229" ph="@..." />
+                <marker date="1529448635522" expanded="true" signature="252:3170" ph="&lt;div.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="290:3163" ph="&lt;div.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="324:2513" ph="&lt;script.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="403:2493" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="503:2477" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="742:887" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="945:1118" ph="[...]" />
+                <marker date="1529448635522" expanded="true" signature="971:1096" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="1153:2457" ph="[...]" />
+                <marker date="1529448635522" expanded="true" signature="1181:1921" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="1401:1895" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="2057:2435" ph="{...}" />
+                <marker date="1529448635522" expanded="true" signature="2522:2778" ph="&lt;div.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="2552:2763" ph="&lt;button.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="2796:3152" ph="&lt;div.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="2826:3137" ph="&lt;table.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="2937:3115" ph="&lt;thead.../&gt;" />
+                <marker date="1529448635522" expanded="true" signature="2961:3090" ph="&lt;tr.../&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,8 +229,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+            <state relative-caret-position="2864">
+              <caret line="253" column="33" selection-start-line="253" selection-start-column="33" selection-end-line="253" selection-end-column="33" />
+              <folding>
+                <marker date="1539284026558" expanded="false" signature="7:100" ph="..." />
+                <marker date="1539284026558" expanded="true" signature="102:168" ph="@..." />
+                <marker date="1539284026558" expanded="true" signature="185:16026" ph="&lt;html.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="202:1507" ph="&lt;head.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1508:16018" ph="&lt;body.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1534:2907" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1567:1652" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1658:2899" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1701:2887" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1732:2871" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1772:2851" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1817:2074" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="1866:2047" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="2096:2827" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="2148:2432" ph="&lt;h3.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="2515:2799" ph="@*...*@" />
+                <marker date="1539284026558" expanded="true" signature="2909:11145" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3303:7755" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3359:7747" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3401:4733" ph="&lt;header.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3466:3808" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3501:3636" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3654:3789" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3919:4386" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="3979:4246" ph="@*...*@" />
+                <marker date="1539284026558" expanded="true" signature="4264:4367" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="4520:4713" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="4564:4694" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="4744:7735" ph="&lt;ul.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="5036:5246" ph="&lt;li.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="5076:5228" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="5272:7720" ph="@*...*@" />
+                <marker date="1539284026558" expanded="true" signature="7757:11136" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="7789:9761" ph="&lt;nav.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="7958:8217" ph="&lt;ul.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="8036:8202" ph="&lt;li.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="8085:8184" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="8278:9749" ph="&lt;ul.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="8356:8956" ph="@*...*@" />
+                <marker date="1539284026558" expanded="true" signature="8970:9735" ph="&lt;li.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9021:9399" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9251:9378" ph="&lt;span.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9417:9717" ph="&lt;ul.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9496:9695" ph="&lt;li.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9538:9669" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9767:10190" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9801:9957" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="9967:10178" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10009:10163" ph="&lt;ol.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10054:10145" ph="&lt;li.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10499:11129" ph="&lt;footer.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10558:11114" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10648:10835" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10947:11098" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="10984:11078" ph="&lt;a.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="11147:12628" ph="&lt;div.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="11226:12582" ph="&lt;script.../&gt;" />
+                <marker date="1539284026558" expanded="true" signature="11300:12059" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="11679:11833" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="11987:12047" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="12104:12566" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="12225:12331" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="12413:12554" ph="{...}" />
+                <marker date="1539284026558" expanded="true" signature="12660:12734" ph="&lt;div.../&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,7 +317,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Controllers/Base/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/SignUp.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
@@ -291,15 +366,16 @@
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Setting/Create.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Setting/Index.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Startup.cs" />
-        <option value="$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Question/Index.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs" />
+        <option value="$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml" />
+        <option value="$PROJECT_DIR$/exac.backoffice/appsettings.json" />
         <option value="$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs" />
-        <option value="$PROJECT_DIR$/exac.backoffice/appsettings.json" />
+        <option value="$PROJECT_DIR$/exac.backoffice/Views/Account/SignUp.cshtml" />
+        <option value="$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml" />
       </list>
     </option>
   </component>
@@ -335,6 +411,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
               <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -381,6 +463,27 @@
               <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Question" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Setting" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="exac.backoffice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -445,12 +548,12 @@
       <updated>1529268499764</updated>
       <workItem from="1529268501491" duration="5076000" />
       <workItem from="1539189369294" duration="971000" />
-      <workItem from="1539259774863" duration="2877000" />
+      <workItem from="1539259774863" duration="10585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8924000" />
+    <option name="totallyTimeSpent" value="16632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,12 +568,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/LoginViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/AuthFailedViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -595,27 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Home/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Setting/Create.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -633,32 +712,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/UserInfoViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="110" column="56" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <marker date="1529448635516" expanded="true" signature="32:226" ph="{...}" />
+            <marker date="1529448635516" expanded="true" signature="69:224" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/ErrorViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="32">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding>
-            <marker date="1529448635515" expanded="false" signature="6:58" ph="..." />
-            <marker date="1529448635515" expanded="true" signature="92:635" ph="{...}" />
-            <marker date="1529448635515" expanded="true" signature="129:633" ph="{...}" />
-            <marker date="1529448635515" expanded="true" signature="144:208" ph="///     Primary key ... " />
-            <marker date="1529448635515" expanded="true" signature="255:330" ph="///     The question statement ... " />
-            <marker date="1529448635515" expanded="true" signature="532:627" ph="{...}" />
+            <marker date="1529448635508" expanded="true" signature="47:213" ph="{...}" />
+            <marker date="1529448635508" expanded="true" signature="81:211" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Controllers/QuestionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="544">
+          <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
           <folding>
             <marker date="1529448635507" expanded="false" signature="6:232" ph="..." />
             <marker date="1529448635507" expanded="true" signature="271:3145" ph="{...}" />
@@ -679,14 +758,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/UserInfoViewModel.cs">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/QuestionViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1539276499872" expanded="false" signature="6:58" ph="..." />
+            <marker date="1539276499872" expanded="true" signature="92:811" ph="{...}" />
+            <marker date="1539276499872" expanded="true" signature="129:809" ph="{...}" />
+            <marker date="1539276499872" expanded="true" signature="144:208" ph="///     Primary key ... " />
+            <marker date="1539276499872" expanded="true" signature="255:330" ph="///     The question statement ... " />
+            <marker date="1539276499872" expanded="true" signature="442:513" ph="///  The question's answer ... " />
+            <marker date="1539276499872" expanded="true" signature="708:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/wwwroot/images/logo-negativo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/LoginViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
           <folding>
-            <marker date="1529448635516" expanded="true" signature="32:226" ph="{...}" />
-            <marker date="1529448635516" expanded="true" signature="69:224" ph="{...}" />
+            <marker date="1529448635509" expanded="true" signature="32:179" ph="{...}" />
+            <marker date="1529448635509" expanded="true" signature="66:177" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -704,99 +809,259 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Api/IExactApi.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="352">
+          <caret line="27" column="106" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="106" />
           <folding>
             <marker date="1539265642170" expanded="false" signature="6:163" ph="..." />
             <marker date="1539265642170" expanded="true" signature="194:1973" ph="{...}" />
             <marker date="1539265642170" expanded="true" signature="227:1971" ph="{...}" />
             <marker date="1539265642170" expanded="true" signature="242:479" ph="Login" />
-            <marker date="1539265642170" expanded="false" signature="497:1224" ph="Question" />
+            <marker date="1539265642170" expanded="true" signature="497:1224" ph="Question" />
             <marker date="1539265642170" expanded="false" signature="1251:1965" ph="Settings" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Models/ErrorViewModel.cs">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="160">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <marker date="1529448635508" expanded="true" signature="47:213" ph="{...}" />
-            <marker date="1529448635508" expanded="true" signature="81:211" ph="{...}" />
+            <marker date="1529448635521" expanded="true" signature="1:136" ph="@..." />
+            <marker date="1529448635521" expanded="true" signature="138:290" ph="&lt;script.../&gt;" />
+            <marker date="1529448635521" expanded="true" signature="209:278" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/_ViewStart.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1952">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="16">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding>
-            <marker date="1529448635519" expanded="true" signature="0:23" ph="@..." />
-            <marker date="1529448635519" expanded="true" signature="40:8493" ph="&lt;html.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="57:1323" ph="&lt;head.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1324:8485" ph="&lt;body.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1374:7975" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1409:7967" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1436:7955" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1472:5732" ph="&lt;script.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="1555:5708" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="1783:5553" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="1816:2077" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="1856:1934" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="1973:2051" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="2114:2427" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="2154:2258" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="2297:2401" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="2536:5531" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="2677:3375" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="3413:5502" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="3615:3857" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="3915:5472" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="3970:4523" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="4132:4485" ph="{...}" />
-            <marker date="1529448635519" expanded="true" signature="5784:5835" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="5919:7195" ph="&lt;form.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6014:6286" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6061:6177" ph="&lt;a.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6305:6522" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6540:6774" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6792:7036" ph="&lt;div.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="6837:7013" ph="&lt;button.../&gt;" />
-            <marker date="1529448635519" expanded="true" signature="7038:7174" ph="@*...*@" />
-            <marker date="1529448635519" expanded="true" signature="7209:7939" ph="@*...*@" />
+            <marker date="1529448635527" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/wwwroot/css/fonts/fontawesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5884">
+          <caret line="274" column="1" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <marker date="1529448635522" expanded="true" signature="89:229" ph="@..." />
+            <marker date="1529448635522" expanded="true" signature="252:3170" ph="&lt;div.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="290:3163" ph="&lt;div.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="324:2513" ph="&lt;script.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="403:2493" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="503:2477" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="742:887" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="945:1118" ph="[...]" />
+            <marker date="1529448635522" expanded="true" signature="971:1096" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="1153:2457" ph="[...]" />
+            <marker date="1529448635522" expanded="true" signature="1181:1921" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="1401:1895" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="2057:2435" ph="{...}" />
+            <marker date="1529448635522" expanded="true" signature="2522:2778" ph="&lt;div.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="2552:2763" ph="&lt;button.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="2796:3152" ph="&lt;div.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="2826:3137" ph="&lt;table.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="2937:3115" ph="&lt;thead.../&gt;" />
+            <marker date="1529448635522" expanded="true" signature="2961:3090" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Question/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <marker date="1539276790746" expanded="true" signature="7:62" ph="..." />
+            <marker date="1539276790746" expanded="true" signature="88:316" ph="@..." />
+            <marker date="1539276790746" expanded="true" signature="317:1932" ph="&lt;script.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="388:1065" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="490:597" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="669:751" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="849:1056" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="1098:1922" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="1495:1692" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="1955:3581" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="1993:3574" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="2026:3563" ph="&lt;form.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="2126:2282" ph="@..." />
+            <marker date="1539276790746" expanded="true" signature="2166:2282" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="2382:2954" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="2485:2604" ph="@{...}" />
+            <marker date="1539276790746" expanded="true" signature="2540:2603" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="2761:2877" ph="@{...}" />
+            <marker date="1539276790746" expanded="true" signature="2813:2876" ph="{...}" />
+            <marker date="1539276790746" expanded="true" signature="2976:3304" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3076:3284" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3121:3261" ph="&lt;input.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3330:3546" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3583:4085" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3637:4078" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3672:4067" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3713:3862" ph="&lt;div.../&gt;" />
+            <marker date="1539276790746" expanded="true" signature="3876:4052" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/SignUp.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1539285040809" expanded="true" signature="15:76" ph="@..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exac.backoffice/Controllers/AccountController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="417">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
           <folding>
-            <marker date="1539265527983" expanded="false" signature="6:433" ph="..." />
-            <marker date="1539265527983" expanded="true" signature="472:2973" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="547:2961" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="643:687" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="759:806" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="951:2650" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="977:2102" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="1077:1255" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="1392:1539" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="1603:1705" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="2154:2364" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="2396:2629" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="2728:2955" ph="{...}" />
-            <marker date="1539265527983" expanded="true" signature="2902:2943" ph="{...}" />
+            <marker date="1539285040809" expanded="false" signature="6:433" ph="..." />
+            <marker date="1539285040809" expanded="true" signature="472:3071" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="547:3059" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="643:687" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="759:806" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="951:2650" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="977:2102" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="1077:1255" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="1392:1539" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="1603:1705" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="2154:2364" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="2396:2629" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="2728:2955" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="2902:2943" ph="{...}" />
+            <marker date="1539285040809" expanded="true" signature="3006:3053" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exac.backoffice/appsettings.json">
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="2864">
+          <caret line="253" column="33" selection-start-line="253" selection-start-column="33" selection-end-line="253" selection-end-column="33" />
+          <folding>
+            <marker date="1539284026558" expanded="false" signature="7:100" ph="..." />
+            <marker date="1539284026558" expanded="true" signature="102:168" ph="@..." />
+            <marker date="1539284026558" expanded="true" signature="185:16026" ph="&lt;html.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="202:1507" ph="&lt;head.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1508:16018" ph="&lt;body.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1534:2907" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1567:1652" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1658:2899" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1701:2887" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1732:2871" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1772:2851" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1817:2074" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="1866:2047" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="2096:2827" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="2148:2432" ph="&lt;h3.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="2515:2799" ph="@*...*@" />
+            <marker date="1539284026558" expanded="true" signature="2909:11145" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3303:7755" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3359:7747" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3401:4733" ph="&lt;header.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3466:3808" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3501:3636" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3654:3789" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3919:4386" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="3979:4246" ph="@*...*@" />
+            <marker date="1539284026558" expanded="true" signature="4264:4367" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="4520:4713" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="4564:4694" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="4744:7735" ph="&lt;ul.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="5036:5246" ph="&lt;li.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="5076:5228" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="5272:7720" ph="@*...*@" />
+            <marker date="1539284026558" expanded="true" signature="7757:11136" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="7789:9761" ph="&lt;nav.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="7958:8217" ph="&lt;ul.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="8036:8202" ph="&lt;li.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="8085:8184" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="8278:9749" ph="&lt;ul.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="8356:8956" ph="@*...*@" />
+            <marker date="1539284026558" expanded="true" signature="8970:9735" ph="&lt;li.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9021:9399" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9251:9378" ph="&lt;span.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9417:9717" ph="&lt;ul.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9496:9695" ph="&lt;li.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9538:9669" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9767:10190" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9801:9957" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="9967:10178" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10009:10163" ph="&lt;ol.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10054:10145" ph="&lt;li.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10499:11129" ph="&lt;footer.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10558:11114" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10648:10835" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10947:11098" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="10984:11078" ph="&lt;a.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="11147:12628" ph="&lt;div.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="11226:12582" ph="&lt;script.../&gt;" />
+            <marker date="1539284026558" expanded="true" signature="11300:12059" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="11679:11833" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="11987:12047" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="12104:12566" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="12225:12331" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="12413:12554" ph="{...}" />
+            <marker date="1539284026558" expanded="true" signature="12660:12734" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exac.backoffice/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+          <folding>
+            <marker date="1539285238774" expanded="true" signature="0:23" ph="@..." />
+            <marker date="1539285238774" expanded="true" signature="40:8509" ph="&lt;html.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="57:1323" ph="&lt;head.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1324:8501" ph="&lt;body.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1374:7991" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1409:7983" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1436:7971" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1472:5732" ph="&lt;script.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="1555:5708" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="1783:5553" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="1816:2077" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="1856:1934" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="1973:2051" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="2114:2427" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="2154:2258" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="2297:2401" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="2536:5531" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="2677:3375" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="3413:5502" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="3615:3857" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="3915:5472" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="3970:4523" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="4132:4485" ph="{...}" />
+            <marker date="1539285238774" expanded="true" signature="5784:5835" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="5919:7211" ph="&lt;form.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6014:6286" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6061:6177" ph="&lt;a.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6305:6522" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6540:6774" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6792:7036" ph="&lt;div.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="6837:7013" ph="&lt;button.../&gt;" />
+            <marker date="1539285238774" expanded="true" signature="7054:7190" ph="@*...*@" />
+            <marker date="1539285238774" expanded="true" signature="7225:7955" ph="@*...*@" />
+          </folding>
         </state>
       </provider>
     </entry>

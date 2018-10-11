@@ -99,6 +99,11 @@ namespace exac.backoffice.Controllers
                 Ok = true
             });
         }
+
+        public async Task<IActionResult> SignUp()
+        {
+            return View();
+        }
     }
     
     
