@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\git_liga\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\exac.backoffice.csproj",
+    "projectUniqueName": "C:\\git_xandao\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\exac.backoffice.csproj",
     "projectName": "exac.backoffice",
-    "projectPath": "C:\\git_liga\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\exac.backoffice.csproj",
-    "outputPath": "C:\\git_liga\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\obj\\",
+    "projectPath": "C:\\git_xandao\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\exac.backoffice.csproj",
+    "outputPath": "C:\\git_xandao\\tcc.exact.backoffice\\exac.backoffice\\exac.backoffice\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

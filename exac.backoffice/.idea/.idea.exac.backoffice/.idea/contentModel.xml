@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\git_liga\tcc.exact.backoffice\exac.backoffice" t="IncludeFlat">
+    <e p="C:\git_xandao\tcc.exact.backoffice\exac.backoffice" t="IncludeFlat">
       <e p="exac.backoffice" t="IncludeRecursive">
         <e p="Api" t="Include">
           <e p="IExactApi.cs" t="Include" />
@@ -46,6 +46,9 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
@@ -1698,6 +1701,7 @@
       <e p="exac.backoffice.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\guilherme\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_exac.backoffice.1299573113.00" t="ExcludeRecursive" />
+    <e p="C:\Users\aacds\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aacds\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_exac.backoffice.1267193411.00" t="ExcludeRecursive" />
   </component>
 </project>
